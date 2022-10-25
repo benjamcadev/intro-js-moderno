@@ -1,6 +1,6 @@
 //import {heroes} from './data/heroes.js';
 
-import {heroes} from "./data/heroes";
+import {heroes} from "../data/heroes";
 
 console.log(heroes);
 
@@ -17,3 +17,7 @@ const getHeroesByOwner = (owner) => {
 };
 
 console.log(getHeroesByOwner('DC'));
+
+export {
+    getHeroeById
+}
